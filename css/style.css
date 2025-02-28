@@ -1,0 +1,252 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+del {
+	text-decoration: line-through;
+}
+body {
+	font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #1C2C40;
+	overflow-x: hidden;
+	min-width: 320px;
+	font-weight: 400;
+}
+input,textarea,select{
+	font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
+	font-weight: 400;
+}
+
+a{
+	color: #1C2C40;
+}
+a:hover,.submit:hover{
+	filter: alpha(opacity = 85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+}
+.thumb{
+	display: block;
+}
+.thumb img{
+	display: block;
+	width:100%;
+}
+p{
+	line-height:1.6em;
+	font-size: 16px;
+	font-family: "Circular-Std-Regular", Arial;
+	font-weight: 400;
+}
+.hidden{
+	display:none;
+}
+br.clear {
+	clear: both;
+	line-height: 0;
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	max-width:1500px;
+}
+@font-face {
+	font-family: 'Circular-Std-Regular';
+	src:url('../fonts/CircularStd-Regular.woff2') format('woff2');
+	src:url('../fonts/CircularStd-Regular.woff') format('woff');
+	font-style: normal;
+}
+@font-face {
+    font-family: 'Circular-Std-Bold';
+    src: url("../fonts/CircularStd-Bold.woff2") format("woff2");
+    src: url("../fonts/CircularStd-Bold.woff") format("woff");
+    font-style: normal
+}
+header{
+	padding: 80px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header h1{
+	
+}
+header h1 a{
+	
+}
+header h1 a img{
+	display: block;
+	width: 100px;
+}
+header div.left{
+	
+}
+header div.left ul{
+	display: flex;
+	justify-content: space-between;
+}
+header div.left ul li{
+	margin-right: 36px;
+	font-size: 20px;
+}
+header div.left ul li:last-child{
+	margin-right: 0;
+}
+header div.left ul li a{
+	color: #565f6a;
+}
+header div.right{
+	
+}
+header div.right ul{
+	display: flex;
+	justify-content: space-between;
+}
+header div.right ul li{
+	margin-right: 36px;
+	font-size: 20px;
+	
+}
+header div.right ul li:last-child{
+	margin-right: 0;
+}
+header div.right ul li a{
+	color: #565f6a;
+}
+header div.right ul li a.button{
+	padding: 14px 24px;
+	border: 1px solid #565f6a;
+	border-radius: 50px;
+	color: #1008f6;
+}
+#spotlight{
+
+}
+#spotlight section.wrapper{
+	display: flex;
+	justify-content: space-between;
+}
+#spotlight section.wrapper div.left{
+	width: 570px;
+}
+#spotlight section.wrapper div.left h2{
+	font-size: 80px;
+	font-weight: 700;
+	color: #0a083a;
+	margin-bottom: 28px;
+}
+#spotlight section.wrapper div.left p{
+	font-size: 22px;
+	color: #565f6a;
+	margin-bottom: 50px;
+}
+#spotlight section.wrapper div.left p span{
+	font-weight: bold;
+}
+#spotlight section.wrapper div.left a.button{
+	padding: 22px 36px;
+	border: 1px solid #565f6a;
+	border-radius: 50px;
+	color: #fff;
+	background-color: #1008f6;
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 50px;
+}
+#spotlight section.wrapper div.left ul{
+	margin-top: 50px;
+}
+#spotlight section.wrapper div.left ul li{
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+	color: #565f6a;
+}
+#spotlight section.wrapper div.left ul li:last-child{
+	margin-bottom: 0;
+}
+#spotlight section.wrapper div.left ul li img{
+	display: block;
+	margin-right: 12px;
+	width: 4%;
+}
+#spotlight div.right{
+	position: relative;
+	width: 40%;
+	height: 750px;
+}
+#spotlight div.right div.grey{
+	width: 80%;
+    background-color: #ededed;
+    height: 720px;
+    position: absolute;
+    top: 70px;
+    left: 150px;
+    z-index: -1;
+}
+#spotlight div.right div.mesh{
+	width: 30%;
+    position: absolute;
+    bottom: 45px;
+    right: 90px;
+    z-index: -1;
+}
+#spotlight div.right div.mesh img{
+	display: block;
+	width: 100%;
+}
+#spotlight div.right div.main{
+	width: 80%;
+}
+#spotlight div.right div.main img{
+	display: block;
+	width: 100%;
+}
+#spotlight div.right div.content{
+	background: #0a083a;
+	padding: 36px 32px;
+	color: #fff;
+	width: 60%;
+	position: absolute;
+    bottom: 72px;
+	left: -100px;
+}
+#spotlight div.right div.content div.quote{
+	width: 16%;
+	position: absolute;
+	bottom: 144px;
+    left: -32px;
+}
+#spotlight div.right div.content div.quote img{
+	display: block;
+	width: 100%;
+}
+#spotlight div.right div.content p{
+	font-size: 15px;
+    margin-bottom: 24px;
+}
+#spotlight div.right div.content h6{
+	font-size: 18px;
+}
+#spotlight div.right div.content span.cloth{
+	font-size: 14px;
+	color: #565f6a;
+}
+
+
+
+
